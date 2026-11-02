@@ -190,7 +190,7 @@ HISOBOT: ${a.ritm}. Format: nima qildim · raqamlar · muammo · sizdan nima ker
 const e = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const Lb = L => `<span class="L" style="--lc:${LC(L)}">${DAR[L][0]} · ${e(DAR[L][1])}</span>`;
 const leg = () => `<div class="leg">${DAR.map((d,i)=>`<span class="lt" style="--lc:${LC(i)}"><i></i>${d[0]} ${e(d[1])}</span>`).join("")}</div>`;
-const kalit = "hiworld-jamoa:" + (D.biznes||"") + ":" + D.soni;
+const kalit = "hi-biznes:" + (D.biznes||"") + ":" + D.soni;
 let holat = {}; try { holat = JSON.parse(localStorage.getItem(kalit)) || {}; } catch(_) {}
 let tab = "umumiy";
 

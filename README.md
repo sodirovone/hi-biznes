@@ -1,4 +1,4 @@
-# HiWorld AI jamoa — Claude plagini
+# Hi Biznes — Claude plagini
 
 hiworld.club'dan. Claude bilan ~10 daqiqalik tanlovli savol-javob: biznesingizdagi ishlarni ko'rib chiqadi, qaysi ishni
 qaysi AI xodim olishini, qanday nazorat bilan va qaysi tartibda joriy qilishni aniqlaydi. Natija — interaktiv xarita:
@@ -10,17 +10,17 @@ Oxirida birinchi AI xodimingizni tayyor skill qilib beradi.
 **Claude Code:**
 
 ```
-/plugin marketplace add sodirovone/hiworld-ai-jamoa
-/plugin install hiworld-jamoa@hiworld-jamoa
+/plugin marketplace add sodirovone/hi-biznes
+/plugin install hi-biznes@hi-biznes
 ```
 
-**claude.ai yoki Claude desktop:** Customize → Plugins → Add marketplace → `sodirovone/hiworld-ai-jamoa` →
-**hiworld-jamoa** → Install. Yoki `hiworld-jamoa` papkasini zip qilib, **Upload plugin** orqali qo'shing.
+**claude.ai yoki Claude desktop:** Customize → Plugins → Add marketplace → `sodirovone/hi-biznes` →
+**hi-biznes** → Install. Yoki `hi-biznes` papkasini zip qilib, **Upload plugin** orqali qo'shing.
 Settings → Capabilities → **Code execution and file creation** yoqiq bo'lsin.
 
 ## Ishlatish
 
-Yangi chatda `/` → **diagnostika** (yoki «AI jamoa diagnostikasini boshlaymiz»). Keyin `/` → **ai-xodim**.
+Yangi chatda `/` → **diagnostika** (yoki «AI jamoa diagnostikasini boshlaymiz»). Keyin `/` → **ai-agent**.
 
 ## Qanday ishlaydi
 

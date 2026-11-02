@@ -1,9 +1,9 @@
 {
-  "name": "hiworld-jamoa",
-  "displayName": "HiWorld AI jamoa",
-  "version": "1.1.0",
+  "name": "hi-biznes",
+  "displayName": "Hi Biznes",
+  "version": "1.2.0",
   "description": "Biznesingiz uchun AI jamoa diagnostikasi: qaysi ishni qaysi AI xodim oladi, qanday nazorat bilan va qaysi tartibda joriy qilinadi. Interaktiv xarita va birinchi AI xodim — skill sifatida. hiworld.club.",
   "author": { "name": "hiworld.club", "url": "https://t.me/Sodirov_U" },
   "homepage": "https://hiworld.club",
-  "keywords": ["ai-xodim", "diagnostika", "biznes", "avtomatlashtirish", "uzbek", "hiworld"]
+  "keywords": ["ai-agent", "diagnostika", "biznes", "avtomatlashtirish", "uzbek", "hiworld"]
 }

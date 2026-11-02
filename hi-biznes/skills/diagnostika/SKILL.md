@@ -1,6 +1,6 @@
 ---
 name: diagnostika
-description: Biznes uchun AI jamoa diagnostikasi — tadbirkor bilan tanlovli savol-javob o'tkazadi (soha, bo'limlar, ishlar, vaqt), qoidaga asoslangan hisob bilan qaysi ishni qaysi AI xodim olishini aniqlaydi va chatda interaktiv xarita (roadmap) artifact quradi. «AI jamoa», «diagnostika», «qaysi ishni AI'ga beraman», «AI xodim», «roadmap», «biznesimni avtomatlashtirish» deganda yoki /hiworld-jamoa:diagnostika chaqirilganda ishlatiladi.
+description: Biznes uchun AI jamoa diagnostikasi — tadbirkor bilan tanlovli savol-javob o'tkazadi (soha, bo'limlar, ishlar, vaqt), qoidaga asoslangan hisob bilan qaysi ishni qaysi AI xodim olishini aniqlaydi va chatda interaktiv xarita (roadmap) artifact quradi. «AI jamoa», «diagnostika», «qaysi ishni AI'ga beraman», «AI xodim», «roadmap», «biznesimni avtomatlashtirish» deganda yoki /hi-biznes:diagnostika chaqirilganda ishlatiladi.
 ---
 
 # AI jamoa diagnostikasi
@@ -36,7 +36,7 @@ aylanma). Python 3, tashqi paket kerak emas. Buyruq: Linux/macOS'da `python3`, W
 
 Ishchi fayllar (`javoblar.json`, `izoh.json`, `xarita.html`):
 - claude.ai'da — vaqtinchalik papka; foydalanuvchiga beriladigan fayl — `/mnt/user-data/outputs/`.
-- Claude Code'da — joriy papkadagi `hiworld-jamoa/` papkasi (bo'lmasa yarat). Shunda `ai-xodim` keyingi chatda ham
+- Claude Code'da — joriy papkadagi `hi-biznes/` papkasi (bo'lmasa yarat). Shunda `ai-agent` keyingi chatda ham
   `javoblar.json` ni topadi.
 
 ## Oqim
@@ -135,11 +135,11 @@ Kalitlar — skript xulosasidagi rol kodlari (`operator`, `sotuv`, `targetolog`,
 - **Artifact:** `xarita.html` ning to'liq mazmunini **o'zgartirmasdan** HTML artifact qilib ber (sarlavha: «AI jamoa xaritasi —
   <biznes>»). Faylni qayta yozma, «yaxshilama», qisqartirma — aynan nusxa.
 - Artifactdan keyin chatda **5 qatordan oshmagan** xulosa: bo'shaydigan vaqt, AI jamoa (nomlar), birinchi qadam, sizdan
-  eng muhim 2 narsa. Oxirida bitta taklif: «Birinchi AI xodimingizni hozir yasab beraymi? — /hiworld-jamoa:ai-xodim».
+  eng muhim 2 narsa. Oxirida bitta taklif: «Birinchi AI xodimingizni hozir yasab beraymi? — /hi-biznes:ai-agent».
 
 ## Xatolar
 
 - Skript topilmasa yoki ishlamasa — foydalanuvchiga ayt, hisobni qo'lda **qilma**.
 - Foydalanuvchi bitta bo'limni ham tanlamasa yoki hech bir ish belgilamasa — natija qurma, qaytib so'ra.
-- Jamoa bo'sh chiqsa (hamma ish L0) — xaritani ko'rsat, lekin `ai-xodim` ni taklif qilma: avval 0-hafta vazifalari.
+- Jamoa bo'sh chiqsa (hamma ish L0) — xaritani ko'rsat, lekin `ai-agent` ni taklif qilma: avval 0-hafta vazifalari.
 - Artifact chiqmasa yoki uzilib qolsa — faylni ber va «yuklab olib brauzerda oching» de.

@@ -1,6 +1,6 @@
 ---
-name: ai-xodim
-description: Diagnostikadan keyin tadbirkorning birinchi AI xodimini yasaydi — rol yo'riqnomasi va biznes xotirasi bilan tayyor Claude skill paketi (.zip), foydalanuvchi uni Customize → Skills orqali o'rnatib, darhol sinaydi. «AI xodim yasa», «birinchi agent», «agentni ishga tushir», /hiworld-jamoa:ai-xodim deganda ishlatiladi.
+name: ai-agent
+description: Diagnostikadan keyin tadbirkorning birinchi AI xodimini yasaydi — rol yo'riqnomasi va biznes xotirasi bilan tayyor Claude skill paketi (.zip), foydalanuvchi uni Customize → Skills orqali o'rnatib, darhol sinaydi. «AI xodim yasa», «birinchi agent», «agentni ishga tushir», /hi-biznes:ai-agent deganda ishlatiladi.
 ---
 
 # Birinchi AI xodimni yasash
@@ -23,7 +23,7 @@ Qo'shni skill papkasida: `../diagnostika/scripts/hisob.py` (topilmasa — fayl q
 ## Oqim
 
 **1. Diagnostika bormi.** `javoblar.json` kerak: shu suhbatda yaratilgan bo'lsa — o'sha; Claude Code'da joriy papkadagi
-`hiworld-jamoa/javoblar.json` ni ham tekshir. Yo'q bo'lsa: «Avval diagnostikadan o'tamiz» deb `diagnostika` skillini boshla.
+`hi-biznes/javoblar.json` ni ham tekshir. Yo'q bo'lsa: «Avval diagnostikadan o'tamiz» deb `diagnostika` skillini boshla.
 
 **2. Qaysi agent.** Sukut — natijadagi reja «1-hafta» agenti. Foydalanuvchiga jamoadagi agentlarni tanlov qilib ber,
 birinchisini «(tavsiya)» deb belgila.

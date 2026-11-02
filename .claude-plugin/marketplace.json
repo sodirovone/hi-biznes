@@ -1,5 +1,5 @@
 {
-  "name": "hiworld-jamoa",
+  "name": "hi-biznes",
   "owner": {
     "name": "hiworld.club",
     "url": "https://hiworld.club"
@@ -7,8 +7,8 @@
   "description": "hiworld.club — AI jamoa diagnostikasi va birinchi AI xodim",
   "plugins": [
     {
-      "name": "hiworld-jamoa",
-      "source": "./hiworld-jamoa",
+      "name": "hi-biznes",
+      "source": "./hi-biznes",
       "description": "AI jamoa diagnostikasi va birinchi AI xodim — hiworld.club"
     }
   ]
